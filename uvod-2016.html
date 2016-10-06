@@ -1,0 +1,248 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Računalniški praktikum</title>
+		<meta name="description" content="">
+		<meta name="author" content="jst">
+
+		<link rel="stylesheet" href="./theme/css/foundation.css" />
+		<link rel="stylesheet" href="./theme/css/pygment/monokai.css" />
+		<link rel="stylesheet" href="./theme/css/custom.css" />
+
+
+		<script src="./theme/js/modernizr.js"></script>
+
+		<!-- Feeds -->
+
+
+		<!-- mathjax config similar to math.stackexchange -->
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			jax: ["input/TeX", "output/HTML-CSS"],
+			tex2jax: {
+				inlineMath: [ ['$', '$'] ],
+				displayMath: [ ['$$', '$$']],
+				processEscapes: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+			},
+			messageStyle: "none",
+			"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+		});
+		</script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	</head>
+	<body>
+		<div class="off-canvas-wrap">
+			<div class="inner-wrap">
+				<!-- mobile top bar to activate nav -->
+				<nav class="tab-bar show-for-small">
+					<section class="left-small">
+						<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+					</section>
+
+					<section class="middle tab-bar-section">
+						<h1 class="title">Računalniški&nbsp;praktikum</h1>
+					</section>
+				</nav>
+
+				<!-- mobile side bar nav -->
+				<aside class="left-off-canvas-menu">
+					<ul class="off-canvas-list">
+						<li><a href=".">Home</a></li>
+						<li><label>Categories</label></li>
+							<li class="active"><a href="./category/priprava-na-rp.html">Priprava na RP</a></li>
+
+						<li><label>Links</label></li>
+							<li><a href="https://www.ntf.uni-lj.si/omm/en/employee/goran-kugler-2/">Profesorjeva stran</a></li>
+
+
+
+						<li><label>Social</label></li>
+					</ul>	
+				</aside>
+
+				<!-- top bar nav -->
+				<nav class="top-bar hide-for-small-only" data-topbar>
+					<ul class="title-area">
+						<li class="name">
+							<h1><a href="./">Računalniški praktikum</a></h1>
+						</li>
+					</ul>
+
+					<section class="top-bar-section">
+						<ul class="left">
+								<li class="active"><a href="./category/priprava-na-rp.html">Priprava na RP</a></li>
+						</ul>
+                        <ul class="right">                                                                                                                                           
+                                                                                                          
+····                                                                                                                                       
+                                     <li><a href="./pages/o-predmetu.html">O predmetu</a></li>                                    
+                                                                                                                                          
+                                                                                                                                             
+                        </ul>  
+					</section>
+				</nav>
+
+				<!-- Main Page Content and Sidebar -->
+				<section class="main-section">
+					<div class="row">
+						<!-- Main Content -->
+						<div class="medium-9 small-12 columns" role="content">
+<article>
+	<h2>Uvod v računalniški praktikum</h2>
+	<p>Za delo pri računalniškem praktikumu boste potrebovali 
+<a href="http://wiki.fmf.uni-lj.si/wiki/Prevajalnik">prevajalnik</a> za programski jezik C/C++. 
+Za enostavno delo priporočamo uporabo <a href="https://sl.wikipedia.org/wiki/Integrirano_razvojno_okolje">razvojnega okolja</a> za ta dva programska jezika. </p>
+<p>Pri vajah bomo uporabljali razvojno okolje <a href="http://www.codelite.org"><strong>CodeLite</strong></a>, 
+ki ga je pred prvimi vajami potrebno namestiti na vaš računalnik.</p>
+<p>Razvojno okolje uporablja prevajalnik <strong>MinGW</strong>, ki ga je potrebno namestiti pred namestitvijo razvojnega okolja.</p>
+<p>Pri namestitvah izberite privzete možnosti, razen kjer ni drugače rečeno.</p>
+<h3>Povzetek : priprava na računalniški praktikum</h3>
+<p>Za pripravo na predmet pred prvimi vajami potrebujete :</p>
+<p>Vsaj eno od (priporočamo oboje) :</p>
+<ul>
+<li>namestite MinGW + CodeLite na vaš PC </li>
+<li>namestite VirtualBox virtualno mašino </li>
+</ul>
+<p>Vse od naštetega :</p>
+<ul>
+<li>namestite in stestirajte eduroam </li>
+<li>stestirajte nameščene programe (virtualna mašina / CodeLite na vašem računalniku)</li>
+</ul>
+<p>V primeru težav se lahko obrnete na asistenta ali profesorja, 
+pomagali pa vam bomo tudi pri vajah. </p>
+<h2>Namestitev prevajalnika MinGW (windows)</h2>
+<ol>
+<li>
+<p>Naložite mingw verzije 5.1.0 (32 bit) iz povezave <a href="https://sourceforge.net/projects/tdm-gcc/">sourceforge</a></p>
+</li>
+<li>
+<p>Ob namestitvi izberite 32 bitno verzijo (če vas čarovnik vpraša za verzijo).</p>
+</li>
+</ol>
+<h2>Namestitev razvojnega okolja Codelite</h2>
+<ol>
+<li>
+<p>Naložite program verzija 9.2.0 za vaš operacijski sistem 
+<a href="http://downloads.codelite.org/">Povezava</a>.
+Program je zastonj, pred nalaganjem vam ni potrebno plačati ničesar (link "not now").</p>
+</li>
+<li>
+<p>Po namestitvi program tudi zaženite.
+Ob prvi uporabi vas program vpraša, ali želite da preišče vaš računalnik<br />
+za že-nameščenimi prevajalniki, ali pa sam namesti prevajalnik mingw. 
+Izberite iskanje po računalniku, kjer bo program našel v prejšnem koraku nameščen prevajalnik <strong>MinGW</strong>. 
+Med izborom 
+Izberite opcijo namestitve prevajalnika mingw.
+Pri koraku "Customize colours" izberite možnost "Classic Eclipse".</p>
+</li>
+<li>
+<p>Ko se konfiguracija programa konča, poizkusite prevesti in zagnati testen program. 
+Najprej ustvarite delovni prostor z klikom na "Create new workspace"
+in izberite programski jezik C++ za ta delovni prostor. 
+Delovni prostor naj bo v mapi 
+brez šumnikov in presledkov v celotni poti do mape (na primer <code>C:\\rp</code>).
+<em>V tem delovnem okolju bodo vsi vaši programi iz tega predmeta</em></p>
+</li>
+<li>
+<p>Naredite nov projetk z izbiro <code>File-&gt;New-&gt;New Project</code> in izberite 
+<code>console &gt; simple executable (gcc)</code> ter poimenujete projekt "test".</p>
+</li>
+<li>
+<p>Po izdelavi projekta, med datotekami navigirajte na <code>test &gt; src &gt; main.c</code> in odprite datoteko.</p>
+</li>
+<li>
+<p>Ko je datoteka odprta, kliknite na <code>build &gt; build and run project</code>. 
+Če je vse kot je treba, se po izvedbi programa pojavi okno (konzola), kjer je izpisan stavek 
+"hello world".
+Čestitke, pravkar ste prevedli in zagnali svoj prvi program. 
+Pričakovana vsebina <a href="./code/priprava-2016/main.c">datoteke</a> je : </p>
+</li>
+</ol>
+<div class="highlight"><pre><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;hello world</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h2>Namestitev virtualne mašine Virtualbox</h2>
+<ol>
+<li>
+<p>Namestite program <a href="https://en.wikipedia.org/wiki/VirtualBox">VirtualBox</a> za vaš operacijski sistem <a href="https://www.virtualbox.org/wiki/Downloads">(VirtualBox)</a>. </p>
+</li>
+<li>
+<p>Naložite sliko virtualne mašine iz <a href="https://drive.google.com/file/d/0B-wYlcx6IUlhTDBOOThIQTg1bkU/view?usp=sharing">(google drive dl)</a></p>
+</li>
+<li>
+<p>Uvozite sliko virtualne mašine v VirtualBox z izbiro <code>File &gt; Import Virtual Appliance</code></p>
+</li>
+<li>
+<p>V vašo virtualno mašino se lahko logirate z uporabniškim imenom <em>rp</em> in geslom <em>rp</em>.
+Na namizju boste našli ikono za zagon <em>CodeLite</em>. 
+Prvi zagon CodeLite je že bil narejen, vaše delovno okolje lahko najdete v <code>/home/rp/workspaces/rp</code>. 
+Ko zaženete CodeLite, je že odprto delovno okolje, v katerem je že narejen testen projekt (<code>test0</code>).
+Potrdite, da lahko ustvarite nov projekt in prevedete program s tem da sledite navodilom 
+od točke za ustvarjanje novega projekta naprej (zgoraj).</p>
+</li>
+</ol>
+<h1>eduroam</h1>
+<p>Za dostop do interneta potrebujete eduroam. Sledite <a href="https://www.uni-lj.si/studentsko_zivljenje/informacijske_storitve/pomoc_in_podpora/eduroam/">navodilom univerze</a></p>
+	<hr/>
+	<h6>Written by <a href="./author/jst.html">jst</a> in <a href="./category/priprava-na-rp.html">Priprava na RP</a> on tor 04 oktober 2016.</h6>
+</article>
+
+<hr/>
+						</div>
+						<!-- End Main Content -->
+						<!-- Sidebar -->
+						<aside class="medium-3 hide-for-small-only columns">
+							<div class="panel">
+								<h5>Links</h5>
+								<ul class="side-nav">
+									<li><a href="https://www.ntf.uni-lj.si/omm/en/employee/goran-kugler-2/">Profesorjeva stran</a></li>
+								</ul>
+							</div>
+
+							<div class="panel">
+								<h5>Tags</h5>
+								<ul class="tag-cloud">
+								</ul>
+							</div>
+
+
+							<div class="panel">
+								<h5>Social</h5>
+								<ul class="side-nav">
+								</ul>
+							</div>
+						</aside>
+						<!-- End Sidebar -->
+					</div>
+
+					<!-- Footer -->
+					<footer class="row">
+						<div class="medium-9 small-12">
+							<hr/>
+							<p class="text-center">Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://foundation.zurb.com/">Zurb Foundation</a>. Theme by <a href="http://hamaluik.com">Kenton Hamaluik</a>.</p>
+						</div>
+					</footer>
+					<!-- End Footer -->
+				</section>
+				<a class="exit-off-canvas"></a>
+			</div><!--off-canvas inner-->
+		</div><!--off-canvas wrap-->
+
+		<script src="./theme/js/jquery.js"></script>
+		<script src="./theme/js/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+	</body>
+</html>
